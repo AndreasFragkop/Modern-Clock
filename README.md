@@ -24,16 +24,6 @@ modern-clock/
      ```
    - Open `http://localhost:8000`.
 
-## Requirements
-- A modern web browser
-- Optional: Python 3 (only needed for local server mode)
-
-## Browser Support
-- Google Chrome (recent versions)
-- Microsoft Edge (recent versions)
-- Mozilla Firefox (recent versions)
-- Safari (recent versions)
-
 ## How to Use
 1. View live analog and digital time immediately on load.
 2. Toggle 12/24-hour display and local/UTC mode.
@@ -66,12 +56,6 @@ modern-clock/
 - Minute chime toggle
 - Reduced-motion support
 - Persistent settings via `localStorage`
-
-## Limitations
-- Sunrise/sunset calculations depend on geolocation permission.
-- Chime behavior depends on browser audio permission/policies.
-- World time list is fixed unless modified in code.
-- Browser-only implementation may vary slightly across environments.
 
 ## Privacy
 - All clock rendering and settings logic run locally in the browser.
